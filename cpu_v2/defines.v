@@ -45,6 +45,13 @@
 'define EXE_PREF         6'b110011
 'define EXE_SPECIAL_INST         6'b000000
 
+'define EXE_MOVZ        6'b001010
+'define EXE_MOVN        6'b001011
+'define EXE_MFHI        6'b010000
+'define EXE_MTHI        6'b010001
+'define EXE_MFLO        6'b010010
+'define EXE_MTLO        6'b010011
+
 'define InstAddrBus         31:0
 'define InstBus             31:0
 
